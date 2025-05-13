@@ -9,24 +9,13 @@
 
 
 
-Chinese SafetyQA is an innovative benchmark designed to evaluate the factuality ability of large language models, specifically
-for short-form factual questions in the Chinese safety domain. Here's a detailed breakdown of its key features:
+We present the Unified Safety Benchmark (USB) for MLLMs, which provides 4 distinct modality combinations for each of the 61 risk sub-categories, covering both English and Chinese across both vulnerability and oversensitivity dimensions.
 
-**Key Features of Chinese SafetyQA**
+**USB-SafeBench's Features**
 
-- **Chinese**: The benchmark is tailored specifically for the Chinese language, ensuring compatibility and relevance for
-  Chinese-speaking users and contexts.
-- **Harmless**: The questions and answers are designed to avoid harmful content, making the dataset suitable for safe
-  and
-  ethical use.
-- **Diverse**: The benchmark encompasses a wide range of topics and subtopics, ensuring comprehensive coverage of the
-  safety domain.
-- **Easy-to-Evaluate**: The answers are straightforward to assess, allowing researchers to quickly and accurately
-  determine the performance of language models.
-- **Static**: The dataset is fixed, allowing for consistent evaluation without dynamic updates that could affect
-  reproducibility.
-- **Challenging**: The questions are designed to push the limits of language models, ensuring that only high-performing
-  models can achieve good results.
+- **Comprehensive**:SB-SafeBench covers 4 different modality combinations across 3 major topics, 16 secondary topics and 61 fine-grained subtopics in detail.
+- **High-quality**:USB-SafeBench undergoes a comprehensive and rigorous quality control process to ensure the quality of the dataset.
+- **Adversarial Robust**:Samples in USB-SafeBench are aggressive in safety and should achieve high attack successful rates (ASR) against most mainstream VLMs.
 
 ---
 
