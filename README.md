@@ -20,27 +20,21 @@ We present the Unified Safety Benchmark (USB) for MLLMs, which provides 4 distin
 ---
 
 **Topics and Subtopics**
-
-- 7 Major Topics: The benchmark is organized into 7 broad categories of safety-related questions.
-- 27 Secondary Topics: All major topic are further divided into 27 secondary topics, ensuring a wide variety of
-  factual questions to test the models' knowledge.
-- 103 Diverse Subtopics: All Secondary Topics are further divided into 103 specific subtopics, ensuring a wide variety of
-  factual questions to test the models' knowledge.
+- **3 Major Topics**:
+- **16 Secondary Topics**:
+- **31 Diverse Subtopics**:
 
 ---
 
-**Chinese SafetyQA serves as a valuable tool for**:
+**USB-SafeBench serves as a valuable tool for**:
 
-- Evaluating the factual accuracy of language models in Chinese.
-- Assessing the ability oaf models to provide short, factually correct, and relevant answers in the safety domain.
-- Ensuring that language models meet safety standards while maintaining diverse and challenging benchmarks for
-  improvement.
+- Evaluating the safety of MLLM.
 
-This benchmark is an essential resource for developers and researchers aiming to improve the safety and reliability of
-language models.
+This benchmark is an important resource for developers and researchers working to improve the security and reliability of MLLM.
 
-Please visit our [website](https://openstellarteam.github.io/ChineseSafetyQA/) or check
-our [paper](https://arxiv.org/abs/2412.15265) for more details.
+Please visit our [website](https://openstellarteam.github.io/ChineseSafetyQA/)
+
+[//]: # (or check our [paper]&#40;https://arxiv.org/abs/2412.15265&#41; for more details.)
 
 > This is the evaluation repository for Chinese SafetyQA
 
