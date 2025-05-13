@@ -186,18 +186,7 @@ Benchmark for Multimodal Large Language Models" property="og:description"/>
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                With the rapid advancement of Large Language Models (LLMs), significant safety concerns have
-                emerged. Fundamentally, the safety of large language models is closely linked to the accuracy,
-                comprehensiveness, and clarity of their understanding of safety knowledge, particularly in
-                domains such as law, policy and ethics. This <strong>factuality ability</strong> is crucial in
-                determining whether these models can be deployed and applied safely and compliantly within
-                specific regions. To address these challenges and better evaluate the factuality ability of LLMs
-                to answer short question, we introduce the <strong>USB-SafeBench</strong> benchmark. Chinese
-                SafetyQA
-                has seven main properties (i.e., Chinese, Diverse, High-quality, Static, Easy-to-evaluate,
-                safety-related, harmless). Based on USB-SafeBench, we perform a comprehensive evaluation on
-                the factuality abilities of existing LLMs and analyze how these capabilities relate to LLM
-                abilities, e.g., RAG ability and robustness against attacks.
+                Despite their remarkable achievements and widespread adoption, Multimodal Large Language Models (MLLMs) have revealed significant security vulnerabilities, highlighting the urgent need for robust safety evaluation benchmarks. Existing MLLM safety benchmarks, however, fall short in terms of data quality and coverge, and modal risk combinations, resulting in inflated and contradictory evaluation results, which hinders the discovery and governance of security concerns. Besides, we argue that vulnerabilities to harmful queries and oversensitivity to harmless ones should to be considered simultaneously in MLLMs safety evaluation, whereas these were previously considered separately. In this paper, to address these shortcomings, we introduce Unified Safety Benchmarks (USB), which is one of the most comprehensive evaluation benchmarks in MLLM safety. Our benchmark features high-quality queries, extensive risk categories, comprehensive modal combinations, and encompasses both vulnerability and oversensitivity evaluations.  From the perspective of two key dimensions: risk categories and modality combinations, we demonstrate that the available benchmarks—even the union of the vast majority of them—are far from being truly comprehensive. To bridge this gap, we design a sophisticated data synthesis pipeline that generates extensive, high-quality complementary data addressing previously unexplored aspects. By combining open-source datasets with our synthetic data, our benchmark provides 4 distinct modality combinations for each of the 61 risk sub-categories, covering both English and Chinese across both vulnerability and oversensitivity dimensions. Extensive experimental result, conducted across 12 mainstream open-source MLLMs and 5 closed-source commercial MLLMs, demonstrates that existing MLLMs still struggle with trade-off between avoiding vulnerabilities and oversensitivity, and are more vulnerable to image-only risky or cross-modal risky inputs, highlighting the need for refined safety mechanisms.
               </p>
             </div>
           </div>
@@ -494,32 +483,16 @@ var option = {
               <p style="font-weight: bold;color: rgb(200, 26, 151);">USB-SafeBench's Features</p>
               <ul style="margin-left: 20px; text-align: left; text-indent: 2em;">
                 <li style="margin-bottom: 1em;">
-                  <strong>Chinese</strong>: USB-SafeBench dataset has been compiled within the Chinese
-                  linguistic context, primarily encompassing safety-related issues, e.g., Chinese legal
-                  frameworks and ethical standards.
+                  <strong>Comprehensive</strong>: USB-SafeBench covers 4 different modality combinations across 3 major topics, 16 secondary topics and 61 fine-grained subtopics in detail.
                 </li>
                 <li style="margin-bottom: 1em;">
-                  <strong>Benign</strong>: Our dataset mainly focuses on the safety-related knowledge. The
-                  examples themselves do not contain any harmful contents.
+                  <strong>High-quality</strong>: USB-SafeBench undergoes a comprehensive and rigorous quality control process to ensure the quality of the dataset.
                 </li>
                 <li style="margin-bottom: 1em;">
-                  <strong>Diverse</strong>: Our dataset includes 7 primary topics, 27 secondary topics and 103
-                  fine-grained topics, covering across nearly all areas of Chinese Safety.
-                </li>
-                <li style="margin-bottom: 1em;">
-                  <strong>Easy-to-evaluate</strong>: We provide data in two different formats: short-form
-                  question-answer (QA) and multiple choice question (MCQ), allowing users to easily test the
-                  boundaries of a model's safety knowledge.
-                </li>
-                <li style="margin-bottom: 1em;">
-                  <strong>Static</strong>: Following prior works, all standard answer given in our benchmark
-                  would not change over time.
-                </li>
-                <li style="margin-bottom: 1em;">
-                  <strong>Challenging</strong>: Our USB-SafeBench dataset primarily covers professional
-                  security knowledge rather than simple, general common-sense knowledge.
+                  <strong>Adversarial Robust</strong>: Samples in USB-SafeBench are aggressive in safety and should achieve high attack successful rates (ASR) against most mainstream VLMs.
                 </li>
               </ul>
+
               <p style="font-weight: bold;color: rgb(200, 26, 151);">Main Results</p>
               <!-- <p style="margin-left: 20px; text-align: left; text-indent: 2em; color: rgb(200, 26, 151);font-weight: bold;">Key observations from our analysis:</p> -->
               <ul style="margin-left: 20px; text-align: left; text-indent: 2em;">
