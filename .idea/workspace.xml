@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f3c1e9-7fad-48ba-800a-053e0b11dee1" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Multi_model_mcq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Stellar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/calibration_and_inference.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/carousel1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/carousel2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/carousel3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/carousel4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/category_en.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/category_zh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/crop_data_construct.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/data_construct.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/data_construct.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/data_construct.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/exp4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/exp6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/hf-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/leaderboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/rag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/ranking_comparison.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/self-reflection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/tax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/uncertainty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pdfs/sample.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747136014021</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <option name="closed" value="true" />
+      <created>1747136234683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136234683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
