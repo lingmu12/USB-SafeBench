@@ -44,12 +44,15 @@ This is the evaluation repository for Chinese SafetyQA
 
 ---
 
-## 🆕 News
+[//]: # (## 🆕 News)
 
-- **\[2024.12.11\]** We have released the Chinese SafetyQA dataset
-  🤗[huggingface](https://huggingface.co/datasets/OpenStellarTeam/Chinese-SafetyQA) 🚀🚀🚀
+[//]: # ()
+[//]: # (- **\[2024.12.11\]** We have released the Chinese SafetyQA dataset)
 
----
+[//]: # (  🤗[huggingface]&#40;https://huggingface.co/datasets/OpenStellarTeam/Chinese-SafetyQA&#41; 🚀🚀🚀)
+
+[//]: # ()
+[//]: # (---)
 
 ## 💫 Introduction
 
