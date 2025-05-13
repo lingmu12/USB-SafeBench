@@ -220,393 +220,248 @@
       var option;
 
       var data = [
-          {
-              name: 'Rumor & Misinf.',
-              itemStyle: {color: 'rgba(59, 162, 114, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Emergency Rumors',
-                      itemStyle: {color: 'rgba(59, 162, 114, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Disaster Exag.', value: 1, itemStyle: {color: 'rgba(59, 162, 114, 0.35)'}},
-                          {name: 'Pandemic Info', value: 1, itemStyle: {color: 'rgba(59, 162, 114, 0.35)'}},
-                          {name: 'Social Sec.', value: 1, itemStyle: {color: 'rgba(59, 162, 114, 0.35)'}},
-                          {name: 'Rescue Info', value: 1, itemStyle: {color: 'rgba(59, 162, 114, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Political Rumors',
-                      itemStyle: {color: 'rgba(79, 172, 134, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Policy Interpret.', value: 1, itemStyle: {color: 'rgba(79, 172, 134, 0.35)'}},
-                          {name: 'Economic Policy', value: 1, itemStyle: {color: 'rgba(79, 172, 134, 0.35)'}},
-                          {name: 'Intl. Relations', value: 1, itemStyle: {color: 'rgba(79, 172, 134, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Common Knowledge Rum.',
-                      itemStyle: {color: 'rgba(99, 182, 154, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Everyday Knowledge', value: 1, itemStyle: {color: 'rgba(99, 182, 154, 0.35)'}},
-                          {name: 'Tech Misunderst.', value: 1, itemStyle: {color: 'rgba(99, 182, 154, 0.35)'}},
-                          {name: 'Health Awareness', value: 1, itemStyle: {color: 'rgba(99, 182, 154, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Illegal & \nReg. Compliance',
-              itemStyle: {color: 'rgba(250, 200, 88, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Criminal Violations',
-                      itemStyle: {color: 'rgba(250, 200, 88, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Nat. Security Haz.', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                          {name: 'Public Safety Haz.', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                          {name: 'Cyber Crimes', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                          {name: 'Sex, Gambling, Drug. Crim.', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                          {name: 'Financial Crimes', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                          {name: 'Drug-related Crimes', value: 1, itemStyle: {color: 'rgba(250, 200, 88, 0.35)'}},
-                      ]
-                  },
-                  {
-                      name: 'Civil Violations',
-                      itemStyle: {color: 'rgba(255, 210, 108, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'IP Infringement', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}},
-                          {name: 'Personality Rights Infr.', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}},
-                          {name: 'Reputational Rights Infr.', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}},
-                          {name: 'Contract Breach', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}},
-                          {name: 'Privacy Invasion', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}},
-                          {name: 'Property Rights Infr.', value: 1, itemStyle: {color: 'rgba(255, 210, 108, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Admin Violations',
-                      itemStyle: {color: 'rgba(245, 190, 78, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Network Info', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Market Order', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Food & Drug', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Financial Reg.', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Env. Protection', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Telecom Mgmt.', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}},
-                          {name: 'Internet Mgmt.', value: 1, itemStyle: {color: 'rgba(245, 190, 78, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Cyber Comp. Violations',
-                      itemStyle: {color: 'rgba(235, 180, 68, 0.6)'}, // Child Color 4
-                      children: [
-                          {name: 'Cybersecurity', value: 1, itemStyle: {color: 'rgba(235, 180, 68, 0.35)'}},
-                          {name: 'Data Security', value: 1, itemStyle: {color: 'rgba(235, 180, 68, 0.35)'}},
-                          {name: 'PI Security', value: 1, itemStyle: {color: 'rgba(235, 180, 68, 0.35)'}},
-                          {name: 'AI Security', value: 1, itemStyle: {color: 'rgba(235, 180, 68, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Physical & \nMental Health',
-              itemStyle: {color: 'rgba(238, 102, 102, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Mental Health',
-                      itemStyle: {color: 'rgba(238, 102, 102, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Stress Coping', value: 1, itemStyle: {color: 'rgba(238, 102, 102, 0.35)'}},
-                          {name: 'Mental Illnesses', value: 1, itemStyle: {color: 'rgba(238, 102, 102, 0.35)'}},
-                          {name: 'Psych Dev.', value: 1, itemStyle: {color: 'rgba(238, 102, 102, 0.35)'}},
-                          {name: 'Emotion Mgmt.', value: 1, itemStyle: {color: 'rgba(238, 102, 102, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Physical Health',
-                      itemStyle: {color: 'rgba(255, 122, 122, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Sports & Fitness', value: 1, itemStyle: {color: 'rgba(238, 112, 112, 0.35)'}},
-                          {name: 'Nutrition & Diet', value: 1, itemStyle: {color: 'rgba(238, 112, 112, 0.35)'}},
-                          {name: 'Physiological Func.', value: 1, itemStyle: {color: 'rgba(238, 112, 112, 0.35)'}},
-                          {name: 'Disease Mgmt.', value: 1, itemStyle: {color: 'rgba(238, 112, 112, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Social Adaptation',
-                      itemStyle: {color: 'rgba(238, 122, 122, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Career Adapt.', value: 1, itemStyle: {color: 'rgba(238, 122, 122, 0.35)'}},
-                          {name: 'Social Roles', value: 1, itemStyle: {color: 'rgba(238, 122, 122, 0.35)'}},
-                          {name: 'Interpersonal Rel.', value: 1, itemStyle: {color: 'rgba(238, 122, 122, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Insults & Hate',
-              itemStyle: {color: 'rgba(115, 192, 222, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Direct Insults & Hate',
-                      itemStyle: {color: 'rgba(115, 192, 222, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Inciting Violent Speech', value: 1, itemStyle: {color: 'rgba(115, 192, 222, 0.35)'}},
-                          {name: 'Character Insult Attacks', value: 1, itemStyle: {color: 'rgba(115, 192, 222, 0.35)'}},
-                          {name: 'Death Threats', value: 1, itemStyle: {color: 'rgba(115, 192, 222, 0.35)'}},
-                          {name: 'Vulgar Profanity', value: 1, itemStyle: {color: 'rgba(115, 192, 222, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Indirect Insults & Hate',
-                      itemStyle: {color: 'rgba(135, 202, 242, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Covert Attacks', value: 1, itemStyle: {color: 'rgba(135, 202, 242, 0.35)'}},
-                          {name: 'Metaph. Pers. Attacks', value: 1, itemStyle: {color: 'rgba(135, 202, 242, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Prejudice & \nDiscrim.',
-              itemStyle: {color: 'rgba(252, 132, 82, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Religious Prej. & Discrim.',
-                      itemStyle: {color: 'rgba(252, 132, 82, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Religious Persec.', value: 1, itemStyle: {color: 'rgba(252, 132, 82, 0.35)'}},
-                          {name: 'Social Conflicts', value: 1, itemStyle: {color: 'rgba(252, 132, 82, 0.35)'}},
-                          {name: 'Education Sector', value: 1, itemStyle: {color: 'rgba(252, 132, 82, 0.35)'}},
-                          {name: 'Legal Protection', value: 1, itemStyle: {color: 'rgba(252, 132, 82, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Racial Prej. & Discrim.',
-                      itemStyle: {color: 'rgba(252, 152, 102, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Notable Cases', value: 1, itemStyle: {color: 'rgba(252, 152, 102, 0.35)'}},
-                          {name: 'Social Movements', value: 1, itemStyle: {color: 'rgba(252, 152, 102, 0.35)'}},
-                          {name: 'Laws & Regs.', value: 1, itemStyle: {color: 'rgba(252, 152, 102, 0.35)'}},
-                          {name: 'Historical Events', value: 1, itemStyle: {color: 'rgba(252, 152, 102, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Sexual Orientation Prej. & \nDiscrim.',
-                      itemStyle: {color: 'rgba(252, 172, 122, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Workplace Env.', value: 1, itemStyle: {color: 'rgba(252, 172, 122, 0.35)'}},
-                          {name: 'Medical Discrim.', value: 1, itemStyle: {color: 'rgba(252, 172, 122, 0.35)'}},
-                          {name: 'Social Movements', value: 1, itemStyle: {color: 'rgba(252, 172, 122, 0.35)'}},
-                          {name: 'Legal Status', value: 1, itemStyle: {color: 'rgba(252, 172, 122, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Gender Prej. & Discrim.',
-                      itemStyle: {color: 'rgba(252, 192, 142, 0.6)'}, // Child Color 4
-                      children: [
-                          {name: 'Workplace Discrim.', value: 1, itemStyle: {color: 'rgba(252, 192, 142, 0.35)'}},
-                          {name: 'Social Attitudes', value: 1, itemStyle: {color: 'rgba(252, 192, 142, 0.35)'}},
-                          {name: 'Edu. Opportunities', value: 1, itemStyle: {color: 'rgba(252, 192, 142, 0.35)'}},
-                          {name: 'Legal Protection', value: 1, itemStyle: {color: 'rgba(252, 192, 142, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Socioecon. Status Prej. & \nDiscrim.',
-                      itemStyle: {color: 'rgba(252, 212, 162, 0.6)'}, // Child Color 5
-                      children: [
-                          {name: 'Housing Discrim.', value: 1, itemStyle: {color: 'rgba(252, 212, 162, 0.35)'}},
-                          {name: 'Access to Medical', value: 1, itemStyle: {color: 'rgba(252, 212, 162, 0.35)'}},
-                          {name: 'Edu. Resource Allocation', value: 1, itemStyle: {color: 'rgba(252, 212, 162, 0.35)'}},
-                          {name: 'Legal Aid', value: 1, itemStyle: {color: 'rgba(252, 212, 162, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Age Prej. & Discrim.',
-                      itemStyle: {color: 'rgba(252, 232, 182, 0.6)'}, // Child Color 6
-                      children: [
-                          {
-                              name: 'Medical Resource Allocation',
-                              value: 1,
-                              itemStyle: {color: 'rgba(252, 232, 182, 0.35)'}
-                          },
-                          {name: 'Cultural Expression', value: 1, itemStyle: {color: 'rgba(252, 232, 182, 0.35)'}},
-                          {name: 'Social Welfare', value: 1, itemStyle: {color: 'rgba(252, 232, 182, 0.35)'}},
-                          {name: 'Employment Discrim.', value: 1, itemStyle: {color: 'rgba(252, 232, 182, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Regional Prej. & Discrim.',
-                      itemStyle: {color: 'rgba(252, 252, 202, 0.6)'}, // Child Color 7
-                      children: [
-                          {name: 'Resource Allocation', value: 1, itemStyle: {color: 'rgba(252, 252, 202, 0.35)'}},
-                          {name: 'Immigration Policy', value: 1, itemStyle: {color: 'rgba(252, 252, 202, 0.35)'}},
-                          {name: 'Local Stereotypes', value: 1, itemStyle: {color: 'rgba(252, 252, 202, 0.35)'}},
-                          {name: 'Urban-Rural Gap', value: 1, itemStyle: {color: 'rgba(252, 252, 202, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Discrim. & \nPrej. Against Disabled',
-                      itemStyle: {color: 'rgba(252, 252, 222, 0.6)'}, // Child Color 8
-                      children: [
-                          {name: 'Accessible Facilities', value: 1, itemStyle: {color: 'rgba(252, 252, 222, 0.35)'}},
-                          {name: 'Social Welfare', value: 1, itemStyle: {color: 'rgba(252, 252, 222, 0.35)'}},
-                          {name: 'Employment Opp.', value: 1, itemStyle: {color: 'rgba(252, 252, 222, 0.35)'}},
-                          {name: 'Edu. Rights', value: 1, itemStyle: {color: 'rgba(252, 252, 222, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Ethical & Moral',
-              itemStyle: {color: 'rgba(130, 141, 240, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Prof. Ethics',
-                      itemStyle: {color: 'rgba(130, 141, 240, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Duty Fulfill.', value: 1, itemStyle: {color: 'rgba(130, 141, 240, 0.35)'}},
-                          {name: 'Conflict of Interest', value: 1, itemStyle: {color: 'rgba(130, 141, 240, 0.35)'}},
-                          {name: 'Confidentiality Obl.', value: 1, itemStyle: {color: 'rgba(130, 141, 240, 0.35)'}},
-                      ]
-                  },
-                  {
-                      name: 'Social Ethics',
-                      itemStyle: {color: 'rgba(150, 161, 240, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Online Ethics', value: 1, itemStyle: {color: 'rgba(150, 161, 240, 0.35)'}},
-                          {name: 'Fairness & Justice', value: 1, itemStyle: {color: 'rgba(150, 161, 240, 0.35)'}},
-                          {name: 'Public Property', value: 1, itemStyle: {color: 'rgba(150, 161, 240, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Tech Ethics',
-                      itemStyle: {color: 'rgba(170, 181, 240, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Data Usage', value: 1, itemStyle: {color: 'rgba(170, 181, 240, 0.35)'}},
-                          {name: 'AI Ethics', value: 1, itemStyle: {color: 'rgba(170, 181, 240, 0.35)'}},
-                          {name: 'Gene Editing', value: 1, itemStyle: {color: 'rgba(170, 181, 240, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Personal Ethics',
-                      itemStyle: {color: 'rgba(190, 201, 240, 0.6)'}, // Child Color 4
-                      children: [
-                          {name: 'Privacy Respect', value: 1, itemStyle: {color: 'rgba(190, 201, 240, 0.35)'}},
-                          {name: 'Self-interest & Altruism', value: 1, itemStyle: {color: 'rgba(190, 201, 240, 0.35)'}},
-                          {name: 'Honest Conduct', value: 1, itemStyle: {color: 'rgba(190, 201, 240, 0.35)'}}
-                      ]
-                  }
-              ]
-          },
-          {
-              name: 'Theoretical & \nTech. Knowledge',
-              itemStyle: {color: 'rgba(190, 120, 245, 1)'}, // Base Color
-              children: [
-                  {
-                      name: 'Cybersecurity Theor. \n& Tech. Know.',
-                      itemStyle: {color: 'rgba(190, 120, 245, 0.6)'}, // Child Color 1
-                      children: [
-                          {name: 'Cyber Std. Errors', value: 1, itemStyle: {color: 'rgba(190, 120, 245, 0.35)'}},
-                          {name: 'Cyber Tech. Know. Errors', value: 1, itemStyle: {color: 'rgba(190, 120, 245, 0.35)'}},
-                          {name: 'Cyber Theor. Know. Errors', value: 1, itemStyle: {color: 'rgba(190, 120, 245, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Telecom Theor. & \nTech. Know.',
-                      itemStyle: {color: 'rgba(210, 140, 245, 0.6)'}, // Child Color 2
-                      children: [
-                          {name: 'Telecom Std. Errors', value: 1, itemStyle: {color: 'rgba(210, 140, 245, 0.35)'}},
-                          {
-                              name: 'Telecom Theor. Know. Errors',
-                              value: 1,
-                              itemStyle: {color: 'rgba(210, 140, 245, 0.35)'}
-                          },
-                          {name: 'Telecom Tech. Know. Errors', value: 1, itemStyle: {color: 'rgba(210, 140, 245, 0.35)'}}
-                      ]
-                  },
-                  {
-                      name: 'Internet Theor. & \nTech. Know.',
-                      itemStyle: {color: 'rgba(230, 160, 245, 0.6)'}, // Child Color 3
-                      children: [
-                          {name: 'Internet Std. Errors', value: 1, itemStyle: {color: 'rgba(230, 160, 245, 0.35)'}},
-                          {
-                              name: 'Internet Theor. Know. Errors',
-                              value: 1,
-                              itemStyle: {color: 'rgba(230, 160, 245, 0.35)'}
-                          },
-                          {name: 'Internet Tech. Know. Errors', value: 1, itemStyle: {color: 'rgba(230, 160, 245, 0.35)'}}
-                      ]
-                  }
-              ]
-          }
-      ];
+    {
+        name: 'National Safety(NS)',
+        itemStyle: { color: 'rgba(59, 162, 114, 1)' },
+        children: [
+            {
+                name: 'Military(MI)',
+                itemStyle: { color: 'rgba(59, 162, 114, 0.6)' },
+                children: [
+                    { name: 'Weapon Fabrication Guidance(WFG)', value: 1, itemStyle: { color: 'rgba(59, 162, 114, 0.35)' } },
+                    { name: 'Disclosure of Military Secrets(DMS)', value: 1, itemStyle: { color: 'rgba(59, 162, 114, 0.35)' } },
+                    { name: 'Disclosure of Military Personnel Info(DMP)', value: 1, itemStyle: { color: 'rgba(59, 162, 114, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Culture & History(CH)',
+                itemStyle: { color: 'rgba(79, 172, 134, 0.6)' },
+                children: [
+                    { name: 'Historical Distortion(HD)', value: 1, itemStyle: { color: 'rgba(79, 172, 134, 0.35)' } },
+                    { name: 'Cultural Tradition Denigration(CTD)', value: 1, itemStyle: { color: 'rgba(79, 172, 134, 0.35)' } }
+                ]
+            }
+        ]
+    },
+    {
+        name: 'Public Safety(PS)',
+        itemStyle: { color: 'rgba(250, 200, 88, 1)' },
+        children: [
+            {
+                name: 'Biology & Environment(BE)',
+                itemStyle: { color: 'rgba(220, 170, 71, 0.6)' },
+                children: [
+                    { name: 'Protected Animal Hurting(PAH)', value: 1, itemStyle: { color: 'rgba(220, 170, 71, 0.35)' } },
+                    { name: 'Protected Plant Logging(PPL)', value: 1, itemStyle: { color: 'rgba(220, 170, 71, 0.35)' } },
+                    { name: 'Environmental Damage(ED)', value: 1, itemStyle: { color: 'rgba(220, 170, 71, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Personal Rights & Property(PR)',
+                itemStyle: { color: 'rgba(230, 185, 76, 0.6)' },
+                children: [
+                    { name: 'Personal Injury(PI)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } },
+                    { name: 'Property Damage(PD)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } },
+                    { name: 'Infringement of Individual Rights(IIR)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } },
+                    { name: 'Production & Trafficking of Drug(PTD)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } },
+                    { name: 'Public Endangerment(PE)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } },
+                    { name: 'Abuse & Exploitation of Minors(AEM)', value: 1, itemStyle: { color: 'rgba(230, 185, 76, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Business(BU)',
+                itemStyle: { color: 'rgba(240, 200, 81, 0.6)' },
+                children: [
+                    { name: 'Business Ethics Violations(BEV)', value: 1, itemStyle: { color: 'rgba(240, 200, 81, 0.35)' } },
+                    { name: 'Monopoly & Unfair Competition(MUC)', value: 1, itemStyle: { color: 'rgba(240, 200, 81, 0.35)' } },
+                    { name: 'Other Commercial Violations(OCV)', value: 1, itemStyle: { color: 'rgba(240, 200, 81, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Network Attacks(NA)',
+                itemStyle: { color: 'rgba(250, 215, 86, 0.6)' },
+                children: [
+                    { name: 'Phishing Email Guidance(PEG)', value: 1, itemStyle: { color: 'rgba(250, 215, 86, 0.35)' } },
+                    { name: 'Cyberattack Guidance(CG)', value: 1, itemStyle: { color: 'rgba(250, 215, 86, 0.35)' } },
+                    { name: 'Cyber Intelligence Gathering(CIG)', value: 1, itemStyle: { color: 'rgba(250, 215, 86, 0.35)' } },
+                    { name: 'Malicious Code Generation(MCG)', value: 1, itemStyle: { color: 'rgba(250, 215, 86, 0.35)' } },
+                    { name: 'Password & CAPTCHA Cracking(PCC)', value: 1, itemStyle: { color: 'rgba(250, 215, 86, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Content Safety(CS)',
+                itemStyle: { color: 'rgba(115, 192, 222, 0.6)' },
+                children: [
+                    { name: 'Pornographic Content(POC)', value: 1, itemStyle: { color: 'rgba(115, 192, 222, 0.35)' } },
+                    { name: 'Violence(VIO)', value: 1, itemStyle: { color: 'rgba(115, 192, 222, 0.35)' } },
+                    { name: 'Gambling Promotion(GP)', value: 1, itemStyle: { color: 'rgba(115, 192, 222, 0.35)' } },
+                    { name: 'Terrorism & Extremism(TE)', value: 1, itemStyle: { color: 'rgba(115, 192, 222, 0.35)' } },
+                    { name: 'Inappropriate Scenarios(IS)', value: 1, itemStyle: { color: 'rgba(115, 192, 222, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Privacy Protection(PP)',
+                itemStyle: { color: 'rgba(252, 132, 82, 0.6)' },
+                children: [
+                    { name: 'Personal Information Leakage(PIL)', value: 1, itemStyle: { color: 'rgba(252, 132, 82, 0.35)' } },
+                    { name: 'Business Secret Disclosure(BSD)', value: 1, itemStyle: { color: 'rgba(252, 132, 82, 0.35)' } },
+                    { name: 'Model Information Leakage(MIL)', value: 1, itemStyle: { color: 'rgba(252, 132, 82, 0.35)' } },
+                    { name: 'Government Information Leakage(GIL)', value: 1, itemStyle: { color: 'rgba(252, 132, 82, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Intellectual Property(IP)',
+                itemStyle: { color: 'rgba(252, 142, 92, 0.6)' },
+                children: [
+                    { name: 'Copyright Infringement(CIF)', value: 1, itemStyle: { color: 'rgba(252, 142, 92, 0.35)' } },
+                    { name: 'Patent Infringement(PIF)', value: 1, itemStyle: { color: 'rgba(252, 142, 92, 0.35)' } },
+                    { name: 'Trademark Infringement(TIF)', value: 1, itemStyle: { color: 'rgba(252, 142, 92, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Hazardous & Controlled Materials(HC)',
+                itemStyle: { color: 'rgba(252, 152, 102, 0.6)' },
+                children: [
+                    { name: 'Cold Weapon(CW)', value: 1, itemStyle: { color: 'rgba(252, 152, 102, 0.35)' } },
+                    { name: 'Hazardous Pathogens & Chemicals(HPC)', value: 1, itemStyle: { color: 'rgba(252, 152, 102, 0.35)' } },
+                    { name: 'Controlled Medical Substances(CMS)', value: 1, itemStyle: { color: 'rgba(252, 152, 102, 0.35)' } },
+                    { name: 'Drug Precursor Chemicals(DPC)', value: 1, itemStyle: { color: 'rgba(252, 152, 102, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Other Public Safety(OP)',
+                itemStyle: { color: 'rgba(252, 162, 112, 0.6)' },
+                children: [
+                    { name: 'Other Illegal Behavior(OIB)', value: 1, itemStyle: { color: 'rgba(252, 162, 112, 0.35)' } }
+                ]
+            }
+        ]
+    },
+    {
+        name: 'Ethical Safety(ES)',
+        itemStyle: { color: 'rgba(130, 141, 240, 1)' },
+        children: [
+            {
+                name: 'Bias & Discrimination(BD)',
+                itemStyle: { color: 'rgba(130, 141, 240, 0.6)' },
+                children: [
+                    { name: 'Ethnic Discrimination(EDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Religious Discrimination(FDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Nationality Discrimination(NDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Regional Discrimination(RDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Gender Discrimination(GDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Age Discrimination(ADS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Occupational Discrimination(ODS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Health Discrimination(HDS)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } },
+                    { name: 'Other Discrimination(OTD)', value: 1, itemStyle: { color: 'rgba(130, 141, 240, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Insults & Condemnation(IC)',
+                itemStyle: { color: 'rgba(150, 161, 240, 0.6)' },
+                children: [
+                    { name: 'Verbal Abuse(VA)', value: 1, itemStyle: { color: 'rgba(150, 161, 240, 0.35)' } },
+                    { name: 'Hostile Condemnation(HSC)', value: 1, itemStyle: { color: 'rgba(150, 161, 240, 0.35)' } },
+                    { name: 'Hate Speech(HA)', value: 1, itemStyle: { color: 'rgba(150, 161, 240, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Psychological Health(PH)',
+                itemStyle: { color: 'rgba(170, 181, 240, 0.6)' },
+                children: [
+                    { name: 'Embarrassing Content(EC)', value: 1, itemStyle: { color: 'rgba(170, 181, 240, 0.35)' } },
+                    { name: 'Induced Negative Emotions(INE)', value: 1, itemStyle: { color: 'rgba(170, 181, 240, 0.35)' } },
+                    { name: 'Interpersonal Misguidance(IM)', value: 1, itemStyle: { color: 'rgba(170, 181, 240, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Superstition(SU)',
+                itemStyle: { color: 'rgba(190, 201, 240, 0.6)' },
+                children: [
+                    { name: 'Superstition Promotion(SP)', value: 1, itemStyle: { color: 'rgba(190, 201, 240, 0.35)' } },
+                    { name: 'Feudal Content Promotion(FCP)', value: 1, itemStyle: { color: 'rgba(190, 201, 240, 0.35)' } }
+                ]
+            },
+            {
+                name: 'Inappropriate Values(IV)',
+                itemStyle: { color: 'rgba(210, 221, 240, 0.6)' },
+                children: [
+                    { name: 'Promotion of Negative Values(PNV)', value: 1, itemStyle: { color: 'rgba(210, 221, 240, 0.35)' } },
+                    { name: 'Devaluation of Positive Values(DPV)', value: 1, itemStyle: { color: 'rgba(210, 221, 240, 0.35)' } },
+                    { name: 'Subjective Moral Judgments(SMJ)', value: 1, itemStyle: { color: 'rgba(210, 221, 240, 0.35)' } },
+                    { name: 'AI Ethics Concerns(AIE)', value: 1, itemStyle: { color: 'rgba(210, 221, 240, 0.35)' } },
+                    { name: 'Harmful Rumors(HR)', value: 1, itemStyle: { color: 'rgba(210, 221, 240, 0.35)' } }
+                ]
+            }
+        ]
+    }
+];
 
-      option = {
-          tooltip: {
-              trigger: 'item',
-              formatter: '{b}'
-          },
-          series: {
-              type: 'sunburst',
-              data: data,
-              radius: ['15%', '95%'],
-              label: {
-                  rotate: 'radial'
-              },
-              levels: [
-                  {
-                      // Level 0 (根节点), 不可见
-                      // 不需要特别设置
-                  },
-                  {
-                      // Level 1 (一级类目)
-                      r0: '15%',
-                      r: '35%',
-                      label: {
-                          rotate: 'radial',
-                          show: true,
-                          color: '#000'
-                      },
-                      itemStyle: {
-                          borderRadius: 5
-                      },
-                      colorSaturation: [0.3, 0.5]
-                  },
-                  {
-                      // Level 2 (二级类目)
-                      r0: '35%',
-                      r: '70%',
-                      label: {
-                          show: true,
-                          color: '#000'
-                      },
-                      itemStyle: {
-                          borderRadius: 5
-                      },
-                      colorSaturation: [0.5, 0.7]
-                  },
-                  {
-                      // Level 3 (三级子类目)
-                      r0: '70%',
-                      r: '72%',
-                      label: {
-                          position: 'outside',
-                          padding: 3,
-                          silent: false,
-                          show: true,
-                          color: '#000'
-                      },
-                      itemStyle: {
-                          borderWidth: 3,
-                          borderRadius: 5
-                      }
-                  }
-              ],
-              itemStyle: {
-                  borderRadius: 7 // 全局圆角设置
-              },
-          }
-      };
+var option = {
+    tooltip: {
+        trigger: 'item',
+        formatter: '{b}'
+    },
+    series: {
+        type: 'sunburst',
+        data: data,
+        radius: ['10%', '100%'],
+        label: {
+            rotate: 'radial'
+        },
+        levels: [
+            {
+                // Level 0 (主要节点), 默认不可见
+            },
+            {
+                // Level 1 (一级类目)
+                r0: '3%',
+                r: '23%',
+                label: {
+                    rotate: 'radial',
+                    show: true,
+                    color:'#000'
+                },
+                itemStyle: {
+                    borderRadius: 5
+                },
+                colorSaturation: [0.3, 0.5]
+            },
+            {
+                // Level 2 (二级类目)
+                r0: '24%',
+                r: '62%',
+                label: {
+                    show: true,
+                    color:'#000'
+                },
+                itemStyle: {
+                    borderRadius: 5
+                },
+                colorSaturation: [0.5, 0.7]
+            },
+            {
+                // Level 3 (三级子类目)
+                r0: '64%',
+                r: '66%',
+                label: {
+                    position: 'outside',
+                    padding: 3,
+                    silent: false,
+                    show: true,
+                    color:'#000'
+                },
+                itemStyle: {
+                    borderWidth: 3,
+                    borderRadius: 5
+                }
+            }
+        ],
+        itemStyle: {
+            borderRadius: 7 // 全局圆角设置
+        },
+    }
+};
 
 
       if (option && typeof option === 'object') {
