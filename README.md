@@ -9,8 +9,8 @@
 
 <p align="center">
 
-   🌐 <a href="https://hongqiong12.github.io/USB-SafeBench/" target="_blank">Website</a> • 🤗 <a href="https://huggingface.co/datasets/OpenStellarTeam/Chinese-SafetyQA" target="_blank">Hugging Face</a> • ⏬ <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/data/" target="_blank">Data</a> •   📃 <a href="https://arxiv.org/abs/2412.15265" target="_blank">Paper</a> •   📊 <a href="http://47.109.32.164/safety" target="_blank">Leader Board</a>  <br>  <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/README_zh.md">   中文</a> | <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/README.md">English</a> 
-
+[//]: # (   🌐 <a href="https://hongqiong12.github.io/USB-SafeBench/" target="_blank">Website</a> • 🤗 <a href="https://huggingface.co/datasets/OpenStellarTeam/Chinese-SafetyQA" target="_blank">Hugging Face</a> • ⏬ <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/data/" target="_blank">Data</a> •   📃 <a href="https://arxiv.org/abs/2412.15265" target="_blank">Paper</a> •   📊 <a href="http://47.109.32.164/safety" target="_blank">Leader Board</a>  <br>  <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/README_zh.md">   中文</a> | <a href="https://github.com/OpenStellarTeam/ChineseSafetyQA/blob/main/README.md">English</a>)
+   🌐 <a href="https://hongqiong12.github.io/USB-SafeBench/" target="_blank">Website</a>
 </p> 
 
 
