@@ -1,3 +1,0 @@
-*.gitattributes filter=
-* filter=tig diff=tig merge=tig -text
-*.xet/** filter=
