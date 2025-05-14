@@ -22,6 +22,9 @@ We present the Unified Safety Benchmark (USB) for MLLMs, which provides 4 distin
 - **16 Secondary Topics**:
 - **31 Diverse Subtopics**:
 
+**Modalities**
+
+**Languages**
 ---
 
 **USB-SafeBench serves as a valuable tool for**:
