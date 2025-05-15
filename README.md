@@ -9,6 +9,9 @@
 
 We present the Unified Safety Benchmark (USB) for MLLMs, which provides 4 distinct modality combinations for each of the 61 risk sub-categories, covering both English and Chinese across both vulnerability and oversensitivity dimensions.
 
+**LeaderBoard**
+<img src="image/leaderboard.png" width="800px"/>
+
 **USB-SafeBench's Features**
 
 - **Comprehensive**:SB-SafeBench covers 4 different modality combinations across 3 major topics, 16 secondary topics and 61 fine-grained subtopics in detail.
