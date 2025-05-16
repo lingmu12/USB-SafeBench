@@ -14,7 +14,7 @@ def get_reconstruct_prompt(query, response, category):
     # Output Format
     {output_format}
     # Input
-    ## Question：{query}
-    ## Response：{response}
-    ## Image-Text Risk Type：{category}
+    ## Question:{query}
+    ## Response:{response}
+    ## Image-Text Risk Type:{category}
     """
