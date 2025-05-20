@@ -1,4 +1,4 @@
-# USB: A Comprehensive and Unified Safety Evaluation Benchmark for Multimodal Large Language Models
+[//]: # (# USB: A Comprehensive and Unified Safety Evaluation Benchmark for Multimodal Large Language Models)
 
 <p align="center">
   <img src="image/title.png" width="800px"/>
