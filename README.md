@@ -46,7 +46,7 @@ For those interested in a more comprehensive overview of the leaderboard, please
 
 # ✨ Dataset Examples
 <p align="center">
-  <img src="image/demo_case.png" width="800px"/>
+  <img src="image/demo_case_new.png" width="800px"/>
 </p>
 
 # 💡 Dataset Usage
