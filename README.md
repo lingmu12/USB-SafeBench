@@ -50,7 +50,7 @@ This refined architecture ensures a robust framework for assessing safety in MLL
 ### Topics
 - 3 Major Topics
 - 16 Secondary Topics
-- 31 Diverse Subtopics
+- 61 Diverse Subtopics
 
 ### Modalities
 - 4 risk-modality combinations
