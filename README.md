@@ -25,9 +25,6 @@ USB is a comprehensive safety benchmark for MLLMs that provides:
   <img src="image/leaderboard.png" width="800px"/>
 </p>
 
-[Click here to view detailed results](https://anonymous.4open.science/w/usb_for_leadboard_gitpage/)
-
-
 ## Key Features
 
 ### 🎯 Comprehensive Coverage
