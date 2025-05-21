@@ -11,13 +11,17 @@
   <a href="https://anonymous.4open.science/w/usb_for_leadboard_gitpage/">🏆 Leaderboard</a>
 </div>
 
-## Introduction
+## 🔐 Introduction
 
-USB is a comprehensive safety benchmark for MLLMs that provides:
-- 4 distinct modality combinations
-- 61 risk sub-categories
-- Coverage of both English and Chinese
-- Evaluation across vulnerability and oversensitivity dimensions
+USB is an advanced safety benchmark for Multimodal Large Language Models (MLLMs) that offers:
+
+- **Modality**: 4 distinct modality combinations, encompassing all risk categories. USB-SafeBench includes: "Risky-Image/Risky-Text (RIRT)", "Risky-Image/Safe-Text (RIST)", "Safe-Image/Risky-Text (SIRT)", and "Safe-Image/Safe-Text (SIST)".
+- **Category**: A hierarchical structure of 3 primary categories(National Safety、 Public Safety、Ethical Safety ), branching into 16 secondary categories and further expanding into 61 tertiary categories.
+- **Language Coverage**: Comprehensive support for both English and Chinese languages.
+- **Evaluation Domains**: Detailed assessment across vulnerability and sensitivity dimensions.
+
+This refined architecture ensures a robust framework for assessing safety in MLLMs, enhancing both clarity and expressiveness of evaluation metrics.
+
 
 ## LeaderBoard
 
