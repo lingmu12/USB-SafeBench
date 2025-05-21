@@ -101,6 +101,9 @@ You can click the dataset button below the title to enter the huggingface page t
 [//]: # (```)
 
 # 📐 Evaluation
+
+
+# 🔒 License
 Usage and License Notices: This dataset is designated and licensed solely for research purposes. It is also subject to restrictions that adhere to the licensing agreements of GPT-4 and Stable Diffusion. The dataset is governed by Apache License 2.0.
 
 
