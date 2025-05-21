@@ -101,6 +101,7 @@ You can click the dataset button below the title to enter the huggingface page t
 [//]: # (```)
 
 # 📐 Evaluation
+Utilize the GPT-4o model to conduct evaluations using the prompts found within the scripts/vlsbench.py file.
 
 
 # 🔒 License
