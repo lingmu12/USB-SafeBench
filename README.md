@@ -49,7 +49,7 @@ For those interested in a more comprehensive overview of the leaderboard, please
   <img src="image/demo_case_new.png" width="800px"/>
 </p>
 
-# 💡 Dataset Usage
+# 💡 Dataset Usage 
 ## 🪜 Download
 You can click the dataset button below the title to enter the huggingface page to obtain detailed data information and download the data
 
