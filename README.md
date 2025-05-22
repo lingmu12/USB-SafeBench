@@ -51,7 +51,13 @@ For those interested in a more comprehensive overview of the leaderboard, please
 
 # 💡 Dataset Usage 
 ## 🪜 Download
-You can click the dataset button below the title to enter the huggingface page to obtain detailed data information and download the data
+You can download this dataset by visit [USB-SafeBench](https://huggingface.co/datasets/cgjacklin/USB/tree/main) or use the following command (make sure that you have installed [Huggingface Datasets](https://huggingface.co/docs/datasets/quickstart)):
+```python
+from datasets import load_dataset
+
+# Login using e.g. `huggingface-cli login` to access this dataset
+dataset = load_dataset("cgjacklin/USB")
+```
 
 [//]: # (## ⚙️ Dataset Format)
 
@@ -98,8 +104,11 @@ You can click the dataset button below the title to enter the huggingface page t
 [//]: # (```)
 
 # 📐 Evaluation
-Utilize the GPT-4o model to conduct evaluations using the prompts found within the scripts/vlsbench.py file.
-
+Utilize the GPT-4o model to conduct ASR and ARR evaluation using the prompts found within the scripts below:
+```python
+scripts/vlsbench.py   # ASR evaluation
+scripts/oversensitive.py # ARR evaluation
+```
 
 # 🔒 License
 Usage and License Notices: This dataset is designated and licensed solely for research purposes. It is also subject to restrictions that adhere to the licensing agreements of GPT-4 and Stable Diffusion. The dataset is governed by Apache License 2.0.
