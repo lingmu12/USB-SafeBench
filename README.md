@@ -12,6 +12,13 @@
 </div>
 
 ## 👀 About USB-SafetyBench
+![Safety-Evaluation](https://img.shields.io/badge/Task-Safety--Evaluation-brown) 
+![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
+![USB](https://img.shields.io/badge/Dataset-USB-blue)  
+![GPT-4](https://img.shields.io/badge/Model-GPT-mediumseagreen) 
+![Gemini-Pro](https://img.shields.io/badge/Model-Gemini-darkmagenta)
+![Claude-3](https://img.shields.io/badge/Model-Claude-peru)  
+![Claude-3](https://img.shields.io/badge/Model-Qwen-blue)  
 
 USB is an advanced safety benchmark for Multimodal Large Language Models (MLLMs) that offers:
 
