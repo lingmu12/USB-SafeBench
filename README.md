@@ -121,4 +121,16 @@ Usage and License Notices: This dataset is designated and licensed solely for re
 
 
 # ❤️ Citation
-If you use your code, data, or results, please cite your paper:
+If you find **USB-SafeBench** useful for your your research and applications, please kindly cite using this BibTeX:
+
+```latex
+@misc{zheng2025usbcomprehensiveunifiedsafety,
+      title={USB: A Comprehensive and Unified Safety Evaluation Benchmark for Multimodal Large Language Models}, 
+      author={Baolin Zheng and Guanlin Chen and Hongqiong Zhong and Qingyang Teng and Yingshui Tan and Zhendong Liu and Weixun Wang and Jiaheng Liu and Jian Yang and Huiyun Jing and Jincheng Wei and Wenbo Su and Xiaoyong Zhu and Bo Zheng and Kaifu Zhang},
+      year={2025},
+      eprint={2505.23793},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2505.23793}, 
+}
+```
