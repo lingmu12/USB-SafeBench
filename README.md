@@ -24,8 +24,8 @@ USB is an advanced safety benchmark for Multimodal Large Language Models (MLLMs)
 - **Modality**: 4 distinct modality combinations, encompassing all risk categories. USB-SafeBench includes: "Risky-Image/Risky-Text (RIRT)", "Risky-Image/Safe-Text (RIST)", "Safe-Image/Risky-Text (SIRT)", and "Safe-Image/Safe-Text (SIST)".
 - **Category**: A hierarchical structure of 3 primary categories(National Safety、 Public Safety、Ethical Safety ), branching into 16 secondary categories and further expanding into 61 tertiary categories.
 - **Language Coverage**: Comprehensive support for both English and Chinese languages.
-- **Evaluation Domains**: Detailed assessment across vulnerability and sensitivity dimensions.
-- **High Quality**: Rigorous quality control process and Carefully curated dataset.
+- **Evaluation Domains**: Detailed assessment across vulnerability and over-refusal dimensions.
+- **Effectiveness**: Systematic data curation process is applied to build a robust and effective benchmark.
 
 This refined architecture ensures a robust framework for assessing safety in MLLMs, enhancing both clarity and expressiveness of evaluation metrics.
 <p align="center">
